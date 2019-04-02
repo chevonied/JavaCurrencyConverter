@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 //Program extends JFrame to use it's properties
-public class ChevonieDanielProgramV extends JFrame {
+public class JavaCurrencyCoverter extends JFrame {
 	
 	//declares instance variables
 	private JButton convButton;
