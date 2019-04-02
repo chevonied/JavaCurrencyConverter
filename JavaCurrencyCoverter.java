@@ -7,7 +7,7 @@ import javax.swing.JComboBox;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-//ChevonieDanielProgramV extends JFrame to use it's properties
+//Program extends JFrame to use it's properties
 public class ChevonieDanielProgramV extends JFrame {
 	
 	//declares instance variables
@@ -140,7 +140,7 @@ public class ChevonieDanielProgramV extends JFrame {
 					double roundedConvAmnt = Math.round(convAmnt * 100.0) / 100.0;
 					
 					if (initAmnt >= 0 && initAmnt < 99999999999.0) {
-						convLabel.setText("€" + roundedConvAmnt);
+						convLabel.setText("â‚¬" + roundedConvAmnt);
 					}
 					else {
 						convLabel.setText("Your number must be between 0 and 99999999999");
@@ -154,7 +154,7 @@ public class ChevonieDanielProgramV extends JFrame {
 					double roundedConvAmnt = Math.round(convAmnt * 100.0) / 100.0;
 					
 					if (initAmnt >= 0 && initAmnt < 99999999999.0) {
-						convLabel.setText("€" + roundedConvAmnt);
+						convLabel.setText("â‚¬" + roundedConvAmnt);
 					}
 					else {
 						convLabel.setText("Your number must be between 0 and 99999999999");
@@ -168,7 +168,7 @@ public class ChevonieDanielProgramV extends JFrame {
 					double roundedConvAmnt = Math.round(convAmnt * 100.0) / 100.0;
 					
 					if (initAmnt >= 0 && initAmnt < 99999999999.0) {
-						convLabel.setText("£" + roundedConvAmnt);
+						convLabel.setText("Â£" + roundedConvAmnt);
 					}
 					else {
 						convLabel.setText("Your number must be between 0 and 99999999999");
@@ -182,7 +182,7 @@ public class ChevonieDanielProgramV extends JFrame {
 					double roundedConvAmnt = Math.round(convAmnt * 100.0) / 100.0;
 					
 					if (initAmnt >= 0 && initAmnt < 99999999999.0) {
-						convLabel.setText("£" + roundedConvAmnt);
+						convLabel.setText("Â£" + roundedConvAmnt);
 					}
 					else {
 						convLabel.setText("Your number must be between 0 and 99999999999");
